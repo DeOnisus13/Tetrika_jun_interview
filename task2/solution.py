@@ -1,8 +1,9 @@
+import asyncio
 import csv
 import re
-import aiohttp
-import asyncio
 from collections import Counter
+
+import aiohttp
 
 WIKI_API_URL = "https://ru.wikipedia.org/w/api.php"
 

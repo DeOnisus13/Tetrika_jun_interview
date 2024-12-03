@@ -1,7 +1,8 @@
-import pytest
-import aiohttp
-from unittest.mock import patch
 from collections import Counter
+from unittest.mock import patch
+
+import aiohttp
+import pytest
 from aioresponses import aioresponses
 
 from task2.solution import fetch_category_members, get_all_animals

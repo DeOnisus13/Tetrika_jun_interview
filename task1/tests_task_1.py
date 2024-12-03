@@ -1,4 +1,5 @@
 import pytest
+
 from task1.solution import strict
 
 
