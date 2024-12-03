@@ -1,3 +1,6 @@
+"""
+Выбрал подход с использованием API Wikipedia, что удобнее и проще, чем парсинг html-страницы.
+"""
 import asyncio
 import csv
 import re
